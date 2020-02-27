@@ -33,7 +33,7 @@
 .navbar-nav a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    text-transform: uppsercase;
+    text-transform: uppercase;
     font-weight: bold;
 }
 .navbar-light .navbar-brand{
@@ -63,7 +63,7 @@
 }
 @media only screen and (max-width: 767px){
     .navbar-nav.ml-auto{
-        background: rgba(0,0,0,0,.5);
+        background: rgba(0,0,0,0.5);
     }
     .navbar-toggler{
         padding: 1px 5px;

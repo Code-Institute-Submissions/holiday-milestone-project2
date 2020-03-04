@@ -22,4 +22,11 @@ southamerica.jpg Photo by Matheus Bertelli from Pexels
 madrid.jpg Photo by Alexis Azabache from Pexels
 berlin.jpg Photo by Shvets Anna from Pexels
 sanfrancisco.jpg Photo by Pixabay from Pexels
-goa.jpg Photo by sergio souza from Pexels
+cuba.jpg Photo by Dimitri Dim from Pexels
+losangels.jpg Photo by Wolfram K from Pexels
+bondibeach.jpg Photo by Belle Co from Pexels
+angkorwat.jpg Photo by Lukas Kloeppel from Pexels
+machupicchu.jpg Photo by Paula Nardini from Pexels
+empirestate.jpg Photo by Roberto Vivancos from Pexels
+eiffeltower.jpg Photo by Eugene Dorosh from Pexels
+rome.jpg Photo by Anastasia Zhenina from Pexels

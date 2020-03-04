@@ -11,3 +11,11 @@ philippines.jpg Photo by NICE GUYS from Pexels
 bali.jpg Photo by VisionPic .net from Pexels
 lisbon.jpg Photo by Lisa Fotios from Pexels
 barcelona.jpg Photo by Chait Goli from Pexels
+africa.jpg Photo by Oleg Magni from Pexels
+asia.jpg Photo by Pixabay
+europe.jpg Photo by H. Emre from Pexels
+oceania.jpg Photo by Sabel Blanco from Pexels
+caribbean.jpg Photo by Jose Espinal from Pexels
+northamerica.jpg Photo by Pixabay
+centralamerica.jpg Photo by Roberto Nickson from Pexels
+southamerica.jpg Photo by Matheus Bertelli from Pexels

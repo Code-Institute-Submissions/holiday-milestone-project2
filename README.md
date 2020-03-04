@@ -12,10 +12,14 @@ bali.jpg Photo by VisionPic .net from Pexels
 lisbon.jpg Photo by Lisa Fotios from Pexels
 barcelona.jpg Photo by Chait Goli from Pexels
 africa.jpg Photo by Oleg Magni from Pexels
-asia.jpg Photo by Pixabay
+asia.jpg Photo by Pixabay from Pexels
 europe.jpg Photo by H. Emre from Pexels
 oceania.jpg Photo by Sabel Blanco from Pexels
 caribbean.jpg Photo by Jose Espinal from Pexels
-northamerica.jpg Photo by Pixabay
+northamerica.jpg Photo by Pixabay from Pexels
 centralamerica.jpg Photo by Roberto Nickson from Pexels
 southamerica.jpg Photo by Matheus Bertelli from Pexels
+madrid.jpg Photo by Alexis Azabache from Pexels
+berlin.jpg Photo by Shvets Anna from Pexels
+sanfrancisco.jpg Photo by Pixabay from Pexels
+goa.jpg Photo by sergio souza from Pexels

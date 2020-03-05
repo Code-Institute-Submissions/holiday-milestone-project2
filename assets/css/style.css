@@ -1,9 +1,15 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .background-image-class {
     background-image:  url("../img/1.jpg");
-    background-position: 100%;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 100vh;
+    background-size: 553px 250px;
+    min-height: 1vh;
 }
 body {
  background-image: url("../img/1.jpg");
@@ -31,7 +37,7 @@ body{
     height: 200px;
     /* background: #6BBAA7; */
     margin: 10px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     display: inline-block;
     flex-direction: row;
     flex-wrap: wrap;

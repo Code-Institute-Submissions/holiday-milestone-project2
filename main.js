@@ -3,7 +3,7 @@ var map;
 function initMap(){
     // Map options
     var options = {
-        center:{lat:53.5500,lng:-2.4333},
+        center:{lat:36.3932,lng:25.4615},
         zoom: 2,
         mapTypedId: 'terrain'
     };
@@ -39,16 +39,61 @@ function initMap(){
     // Array of markers
     var markers = [
         {
-        coords:{lat:53.5500, lng:-2.4333},
+        coords:{lat:36.3932, lng:25.4615},
         iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-        content: '<h1>Lynn MA</h1>'
+        content: '<h6>Santorini</h6>'
     },
     {
-        coords:{lat:45.4408,lng:-12.3155},
-        content: '<h1>Venice</h1>'
+        coords:{lat:45.4408,lng:12.3155},
+        content: '<h6>Venice</h6>'
     },
     {
-        coords:{lat:52.3667,lng:-4.8945}
+        coords:{lat:52.3667,lng:4.8945},
+        content: '<h6>Amsterdam</h6>'
+    },
+    {
+        coords:{lat:48.8566,lng:2.3522},
+        content: '<h6>Paris</h6>'
+    },
+    {
+        coords:{lat:3.2028,lng:73.2207},
+        iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+        content: '<h6>Maldives</h6>'
+    },
+    {
+        coords:{lat:12.8797,lng:121.7740},
+        iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+        content: '<h6>Philippines</h6>'
+    },
+    {
+        coords:{lat:15.8700,lng:100.9925},
+        iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+        content: '<h6>Thailand</h6>'
+    },
+    {
+        coords:{lat:8.3405,lng:115.0920},
+        iconImage:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+        content: '<h6>Bali</h6>'
+    },
+    {
+        coords:{lat:38.7223,lng:9.1393},
+        content: '<h6>Lisbon</h6>'
+    },
+    {
+        coords:{lat:40.4168,lng:3.7038},
+        content: '<h6>Madrid</h6>'
+    },
+    {
+        coords:{lat:52.5200,lng:13.4050},
+        content: '<h6>Berlin</h6>'
+    },
+    {
+        coords:{lat:13.4125,lng:103.8670},
+        content: '<h6>Angkor Wat</h6>'
+    },
+    {
+        coords:{lat:41.9028,lng:12.4964},
+        content: '<h6>Rome</h6>'
     }
     ];
 

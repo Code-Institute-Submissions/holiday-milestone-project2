@@ -1,4 +1,37 @@
-var map;
+// Index animation //
+const hero = document.querySelector('.hero');
+const slider = document.querySelector('.slider');
+const headline = document.querySelector('.headline');
+
+const tl = new TimelineMax();
+
+tl.fromTo(
+    hero,
+    1, 
+    { height: "0%" },
+    { height: "80%", ease: Power2.easeInOut }
+).fromTo(
+    hero, 
+    1.2, 
+    { width: '100%' }, 
+    { width: '80%', ease: Power2.easeInOut }
+)
+.fromTo(
+    slider, 
+    1.2, 
+    { x: "-100%" }, 
+    { x: '0%' ,ease: Power2.easeInOut }, 
+    "-=1.2"
+)
+.fromTo(
+    headline, 
+    1.2, 
+    { x: "-100%" }, 
+    { x: '0%' ,ease: Power2.easeInOut }, 
+    "-=1.2"
+)
+
+// Index animation above //
 
 function initMap(){
     // Map options
@@ -9,32 +42,14 @@ function initMap(){
     };
      
     //  New map
-    var map = new
-    google.maps.Map(document.getElementById('map'), options);
+    var map = new google.maps.Map(document.getElementById('map'), options);
     
     // Listen for click on map
     google.maps.event.addListener(map, 'click', 
     function(event){
-        // Add marker
+    // Add marker
         addMarker({coords:event.latLng});
     });
-
-    /*
-    // Add marker
-    var marker = new google.maps.Marker({
-          position:{lat:36.3932, lng:-25.4615},
-          map: map,
-          icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-        });
-
-    var infoWindow = new google.maps.InfoWindow({
-        content:'<h1>Lynn MA</h1>'
-    });
-
-    marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-    });
-    */
 
     // Array of markers
     var markers = [

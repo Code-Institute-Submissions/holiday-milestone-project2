@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Source+Sans+Pro&display=swap');
-/* Index animation */
+
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .slider
 {
     position: absolute;
@@ -13,9 +14,10 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: url('assets/img/1.jpg');
+    background: url('assets/img/2.jpg');
     z-index: -1;
 }
+
 section
 {
     display: flex;
@@ -23,18 +25,21 @@ section
     justify-content: center;
     align-items: center;
 }
+
 .hero
 {
     height: 60%;
     width: 100%;
     position: relative;
 }
+
 .hero img
 {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .headline
 {
     position: absolute;
@@ -46,10 +51,11 @@ section
     color: white;
     z-index: 3;
 }
+
 .hero::after
 {
     content: "";
-    background: black;
+    background: #1a1a1d;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -57,7 +63,7 @@ section
     opacity: 0.3;
     top: 0;
 }
-/* Index animation above */
+
 .centered 
 {
   position: absolute;
@@ -65,6 +71,7 @@ section
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .background-image-class 
 {
     background-image:  url("../img/1.jpg");
@@ -73,6 +80,7 @@ section
     background-size: 553px 250px;
     min-height: 1vh;
 }
+
 body 
 {
     background-image: url("../img/1.jpg");
@@ -82,6 +90,7 @@ body
     /* background: #f0f7f4; */
     font-family: Lato;
 }
+
 .container
 {
     width: 1280px;
@@ -90,6 +99,7 @@ body
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .container .box
 {
     position: relative;
@@ -102,23 +112,27 @@ body
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .container .box .imgBox
 {
     position: relative;
     overflow: hidden;
 }
+
 .container .box .imgBox img
 {
     max-width: 100%;
     transition: transform 2s;
 }
+
 .container .box:hover .imgBox img
 {
     transform: scale(1.2)
 }
+
 .container .box .details
 {
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 10px;
     bottom: 10px;
@@ -127,10 +141,12 @@ body
     transform: scaleY(0);
     transition: transform .5s;
 }
+
 .container .box:hover .details
 {
     transform: scaleY(1);
 }
+
 .container .box .details .content
 {
     position: absolute;
@@ -140,6 +156,7 @@ body
     padding: 15px;
     color: #fff;
 }
+
 .container .box .details .content h2
 {
     margin: 0;
@@ -147,11 +164,13 @@ body
     font-size: 20px;
     color: #6BBAA7;
 }
+
 .container .box .details .content p
 {
     margin: 10px 0 0;
     padding: 0;
 }
+
 .navbar-nav a
 {
     font-family: Arial, Helvetica, sans-serif;
@@ -159,6 +178,7 @@ body
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .navbar-light .navbar-brand
 {
     color: #fff;
@@ -167,30 +187,37 @@ body
     font-weight: bold;
     letter-spacing: 2px;
 }
+
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link 
 {
     color: #fff;
 }
+
 .navbar-light .navbar-nav .nav-link
 {
     color: #fff;
 }
+
 .navbar-nav
 {
     text-align: center;
 }
+
 .nav-link
 {
     padding: .2rem 1rem;
 }
+
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover 
 {
     color: #fff !important;
 }
+
 .w-100
 {
     height: 100vh;
 }
+
 @media only screen and (max-width: 767px)
 {
     .navbar-nav.ml-auto
@@ -205,15 +232,18 @@ body
         background: #fff;
     }
 }
+
 #map
 {
     height: 500px;
     width: 1000px;
 }
+
 div
 {
     padding-top: 4%;
 }
+
 h1
 {
     font-family: 'Lato', sans-serif;
@@ -221,10 +251,16 @@ h1
     letter-spacing: 1px;
     color: #777777;
 }
+
 span 
 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #777777;
+}
+
+.wrapper-gallery
+{
+    margin: 0 20vw;
 }

@@ -31,7 +31,7 @@ tl.fromTo(
     "-=1.2"
 )
 
-// Index animation above //
+// Map //
 
 function initMap(){
     // Map options

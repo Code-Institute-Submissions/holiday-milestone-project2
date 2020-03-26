@@ -1,4 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Source+Sans+Pro&display=swap');
+/* Gallery */
+.gallery{
+    margin: 10px 50px;
+}
+
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
 
 *
 {
@@ -90,7 +105,7 @@ body
     /* background: #f0f7f4; */
     font-family: Lato;
 }
-/* Container */
+/* Container 
 .container
 {
     width: 1280px;
@@ -105,7 +120,7 @@ body
     position: relative;
     width: 300px;
     height: 200px;
-    /* background: #6BBAA7; */
+    /* background: #6BBAA7; 
     margin: 10px;
     box-sizing: border-box; 
     display: inline-block;
@@ -237,11 +252,6 @@ body
 {
     height: 500px;
     width: 1000px;
-}
-
-div 
-{
-    /*padding-top: 4%;*/
 }
 
 h1

@@ -1,4 +1,5 @@
 // Index animation //
+
 const hero = document.querySelector('.hero');
 const slider = document.querySelector('.slider');
 const headline = document.querySelector('.headline');

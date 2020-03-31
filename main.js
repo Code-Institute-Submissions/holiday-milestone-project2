@@ -39,7 +39,7 @@ function initMap(){
     var options = {
         center:{lat:36.3932,lng:25.4615},
         zoom: 2,
-        mapTypedId: 'terrain'
+        mapTypedId: 'terrain',
     };
      
     //  New map

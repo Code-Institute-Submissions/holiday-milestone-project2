@@ -55,8 +55,8 @@ section
 .headline
 {
     position: absolute;
-    top: 70px;
-    left: 20%;
+    top: 260px;
+    left: 25%;
     bottom: 10%;
     font-size:30px;
     transform: translate(-20%, -70%);
@@ -206,6 +206,8 @@ body
         background: #fff;
     }
 }
+
+/* Map */
 
 #map
 {

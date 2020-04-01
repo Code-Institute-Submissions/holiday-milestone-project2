@@ -209,9 +209,15 @@ body
 
 #map
 {
-    margin: 200px 310px;
-    height: 500px;
-    width: 1000px;
+    display: block;
+    width: 90vh;
+    height: calc(.75 * 90vw);
+    max-width: 800px;
+    max-height: 600px;
+    margin: 10em auto;
+    border: solid 1px gray;
+    box-shadow: 2px 2px 2px silver;
+    border-radius: 4px;
 }
 
 h1

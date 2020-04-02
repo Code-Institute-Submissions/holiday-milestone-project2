@@ -94,13 +94,13 @@ section
 }
 
 /* container first html */
-/*edit*/
+
 *
 {
     padding: 0;
     margin: 0;
 }
-/*edit*/
+
 body 
 {
     background-image:  url("../img/1.jpg");
@@ -146,7 +146,7 @@ body
 {
     transform: scale(1.2);
 }
-/*edit*/
+
 .content
 {
     width: 100;
@@ -161,7 +161,12 @@ body
     font-size: 2.5vw;
     font-family: 'lato', sans-serif;
 }
-/*edit*/
+
+.chain
+{
+    font-size: 300px;
+}
+
 /* Nav Bar */
 
 .navbar-nav a
@@ -261,3 +266,4 @@ span
 {
     margin: 0 20vw;
 }
+

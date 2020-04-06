@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!-- edit -->
+    <link rel="stylesheet" href="assets/css/lightbox.min.css" type="text/css" />
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
 
     <!-- Navigation -->
   
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">Holiday Selector</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,11 +58,134 @@
             <div class="hero">
                 <img src="assets/img/2.jpg" alt="beach">
                 <h1 class="headline">Where do you want to go on holiday?</h1>
+                <h6 class="subheading">Here are some popular destinations to travel too, a map, links to tours and flights.</h6>
             </div>
         </section>
     </header>
 
     <div class="slider"></div>
+
+    <!-- Containers -->
+
+    <div class="container">
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/greece/cyclades/santorini-thira"><img src="assets/img/santorini.jpg" alt="santorini"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Santorini</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/italy/venice"><img src="assets/img/venice.jpg" alt="venice"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Venice</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/iceland"><img src="assets/img/iceland.jpg" alt="iceland"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Iceland</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/france/paris"><img src="assets/img/paris.jpg" alt="paris"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Paris</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/usa/new-york-city"><img src="assets/img/newyork.jpg" alt="new york"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>New York</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/philippines"><img src="assets/img/philippines.jpg" alt="philippines"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Philippines</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/maldives"><img src="assets/img/maldives.jpg" alt="maldives"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Maldives</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/thailand"><img src="assets/img/thailand.jpg" alt="thailand"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Thailand</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/indonesia/bali"><img src="assets/img/bali.jpg" alt="bali"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Bali</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+               <a href="https://www.lonelyplanet.com/the-netherlands/amsterdam"><img src="assets/img/amsterdam.jpg" alt="amsterdam"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Amsterdam</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Images -->
+
+    <div class="gallery">
+        <a href="assets/img/africa-big.jpg" data-lightbox="mygallery" data-title="Africa"><img src ="assets/img/africa.jpg" alt="africa"></a>
+        <a href="assets/img/asia-big.jpg" data-lightbox="mygallery" data-title="Asia"><img src ="assets/img/asia.jpg" alt="asia"></a>
+        <a href="assets/img/europe-big.jpg" data-lightbox="mygallery" data-title="Europe"><img src ="assets/img/europe.jpg" alt="europe"></a>
+        <a href="assets/img/oceania-big.jpg" data-lightbox="mygallery" data-title="Oceania"><img src ="assets/img/oceania.jpg" alt="oceania"></a>
+        <a href="assets/img/caribbean-big.jpg" data-lightbox="mygallery" data-title="Caribbean"><img src ="assets/img/caribbean.jpg" alt="caribbean"></a>
+        <a href="assets/img/northamerica-big.jpg" data-lightbox="mygallery" data-title="North america"><img src ="assets/img/northamerica.jpg" alt="north america"></a>
+        <a href="assets/img/centralamerica-big.jpg" data-lightbox="mygallery" data-title="Central america"><img src ="assets/img/centralamerica.jpg" alt="central america"></a>
+        <a href="assets/img/southamerica-big.jpg" data-lightbox="mygallery" data-title="South america"><img src ="assets/img/southamerica.jpg" alt="south america"></a>
+    </div>
+
+    <!-- Copyright -->
+
+    <p class="copyright text-muted ">Copyright &copy; Terri Marie Grierson 2020</p>
 
     <!-- Scripts -->
 
@@ -69,6 +195,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script type="javascript" src="main.js"></script>
+    
+    <!-- edit -->
+    
+    <script src="https://kit.fontawesome.com/651a492b0b.js" crossorigin="anonymous"></script>
 
     <!-- Javascript -->
 

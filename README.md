@@ -1,10 +1,11 @@
 1.jpg Photo by Sean O. on Unsplash
 2.jpg Photo by Valdemaras D. from Pexels
+3.jpg Photo by NEOSiAM 2020 from Pexels
 santorini.jpg Photo by jimmy teoh from Pexels
 venice.jpg Photo by Nikolaj Erema from Pexels
 newyork.jpg Photo by Vlad Alexandru Popa from Pexels
 paris.jpg Photo by Rosivan Morais from Pexels
-amsterdam.jpg Photo by Liam Gant from Pexels
+amsterdam.jpg Photo by _ Harvey from Pexels
 thailand.jpg Photo by VisionPic .net from Pexels
 iceland.jpg Photo by Simon Migaj from Pexels
 maldives.jpg Photo by Snapwire from Pexels 

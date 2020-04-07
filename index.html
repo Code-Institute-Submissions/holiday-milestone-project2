@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <!-- edit -->
     <link rel="stylesheet" href="assets/css/lightbox.min.css" type="text/css" />
     <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
@@ -29,19 +28,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Destination</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="first.html">Destination</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="second.html">Regions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="third.html">Tours</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="fourth.html">Map</a>
+                        <a class="nav-link" href="tours.html">Tours</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.skyscanner.net/">Flights</a>
@@ -168,6 +158,42 @@
                 </div>
             </div>
         </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/greece/zakynthos"><img src="assets/img/zante.jpg" alt="zante"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Zakynthos</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <a href="https://www.lonelyplanet.com/mexico"><img src="assets/img/mexico.jpg" alt="mexico"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Mexico</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4"></h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div id="map"></div>
+            </div>
+        </div>
     </div>
 
     <!-- Images -->
@@ -194,15 +220,16 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script type="javascript" src="main.js"></script>
-    
-    <!-- edit -->
-    
     <script src="https://kit.fontawesome.com/651a492b0b.js" crossorigin="anonymous"></script>
 
     <!-- Javascript -->
-
+    
+    <script type="javascript" src="main.js"></script>
     <script src="main.js"></script>
+
+    <!-- Google Maps Scripts -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV-sOfoLshFW6Eu4-UsJ6w2oBkROMy9gQ&callback=initMap" async defer></script>
 
 </body>
 

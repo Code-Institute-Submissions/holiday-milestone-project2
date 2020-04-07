@@ -8,7 +8,10 @@
     <title>Tour</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/lightbox.min.css" type="text/css" />
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
@@ -25,19 +28,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Destination</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="first.html">Destination</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="second.html">Regions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="third.html">Tours</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="fourth.html">Map</a>
+                        <a class="nav-link" href="tours.html">Tours</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.skyscanner.net/">Flights</a>
@@ -47,9 +41,19 @@
         </div>
     </nav>
 
-     <!-- Images -->
+    <!-- Page Header -->
 
-    <img src="assets/img/1.jpg" class="img-fluid" alt="Responsive image">
+    <header>
+        <section>
+            <div class="hero">
+                <img src="assets/img/2.jpg" alt="beach">
+                <h1 class="headline">Where do you want to go on holiday?</h1>
+                <h6 class="subheading">Here are some popular destinations to travel too, a map, links to tours and flights.</h6>
+            </div>
+        </section>
+    </header>
+
+    <div class="slider"></div>
 
     <!-- Containers -->
 
@@ -164,19 +168,35 @@
                 </div>
             </div>
         </div>
+                <div class="box">
+            <div class="imgBox">
+               <a href="https://www.lonelyplanet.com/france/paris/attractions/musee-du-louvre/a/poi-sig/372123/359279"><img src="assets/img/louvre.jpg" alt="louvre"></a>
+            </div>
+            <div class="details">
+                <div class="content">
+                    <h6>Louvre</h6>
+                </div>
+            </div>
+        </div>
     </div>
 
         <!-- Copyright -->
 
         <p class="copyright text-muted ">Copyright &copy;Terri Marie Grierson 2020</p>
 
-        <!-- Bootstrap scripts -->
+        <!-- Scripts -->
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha256-ABrLsV2caVEMCBfm3eNhv/CYQG+tGCqzw2f4b/Pag0M=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js" integrity="sha256-v/YsEqWkVsiNHryCWg+vjC/eDBakMAgOsCJRa0kNPOg=" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/651a492b0b.js" crossorigin="anonymous"></script>
+
+        <!-- Javascript -->
+    
         <script type="javascript" src="main.js"></script>
+        <script src="main.js"></script>
 
 </body>
 </html>

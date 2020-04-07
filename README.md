@@ -1,6 +1,4 @@
-1.jpg Photo by Sean O. on Unsplash
 2.jpg Photo by Valdemaras D. from Pexels
-3.jpg Photo by NEOSiAM 2020 from Pexels
 santorini.jpg Photo by jimmy teoh from Pexels
 venice.jpg Photo by Nikolaj Erema from Pexels
 newyork.jpg Photo by Vlad Alexandru Popa from Pexels
@@ -32,3 +30,6 @@ machupicchu.jpg Photo by Paula Nardini from Pexels
 empirestate.jpg Photo by Roberto Vivancos from Pexels
 eiffeltower.jpg Photo by Eugene Dorosh from Pexels
 rome.jpg Photo by Anastasia Zhenina from Pexels
+louvre.jpg Photo by Pixabay from Pexels
+zante.jpg Photo by Pixabay from Pexels
+mexico.jpg Photo by Pixabay from Pexels

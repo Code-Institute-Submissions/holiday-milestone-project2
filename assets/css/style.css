@@ -64,7 +64,7 @@
     }
 }
 
-/* Index styling */
+/* Index heading styling */
 
 .slider
 {
@@ -152,12 +152,26 @@ section
     min-height: 1vh;
 }
 
-/* container */
+/* Index page view styling */
 
 *
 {
     padding: 0;
     margin: 0;
+}
+
+.wrapper
+{
+    width: 100%;
+}
+
+
+{
+
+}
+
+@media only screen and (min-width: 768px){
+
 }
 
 body 
@@ -168,6 +182,8 @@ body
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+
+/* container */
 
 .container
 {

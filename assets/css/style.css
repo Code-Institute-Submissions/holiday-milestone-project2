@@ -165,13 +165,47 @@ section
     width: 100%;
 }
 
-
+.article h2
 {
+    padding: 30px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
 
+.article p
+{
+    padding: 0px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16x;
+    color: #111;
+    line-height: 24px;
 }
 
 @media only screen and (min-width: 768px){
+    .wrapper
+    {
+        width: 600px;
+        margin: 0 auto;
+    }
 
+    .article h2
+    {
+    padding: 20px 0px 0px;
+    }
+
+    .article p
+    {
+    padding: 20px 0px 0px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .wrapper
+    {
+    width: 100%;
+    }
 }
 
 body 

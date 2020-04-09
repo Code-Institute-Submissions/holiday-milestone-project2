@@ -160,12 +160,31 @@ section
     margin: 0;
 }
 
-.wrapper
+.intro
 {
     width: 100%;
 }
 
-.article h2
+.intro-text
+{
+    width: 30%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.intro-appear
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.intro-context
+{
+    width: 100%;
+}
+
+.intro-title h2
 {
     padding: 30px 30px 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -174,7 +193,7 @@ section
     line-height: 44px;
 }
 
-.article p
+.intro-text h2
 {
     padding: 0px 30px 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -185,18 +204,24 @@ section
 
 @media only screen and (min-width: 768px)
 {
-    .wrapper
+    .intro
     {
         width: 600px;
         margin: 0 auto;
     }
 
-    .article h2
+    .intro-context
+    {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .intro-title h2
     {
         padding: 20px 0px 0px;
     }
 
-    .article p
+    .intro-text h2
     {
         padding: 20px 0px 0px;
     }
@@ -204,17 +229,22 @@ section
 
 @media only screen and (min-width: 1000px)
 {
-    .wrapper
+    .intro
+    {
+        width: 1000px;
+    }
+
+    .intro-context
     {
         width: 1000px;
     }
     
-    .article h2
+    .intro-title h2
     {
         padding: 20px 0px 0px 30px;
     }
 
-    .article p
+    .intro-text h2
     {
         padding: 20px 0px 0px 30px;
     }
@@ -238,6 +268,7 @@ body
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container .box
@@ -246,10 +277,10 @@ body
     width: 300px;
     height: 200px;
     background: #ff01; 
-    /*margin: 10px;*/
-    margin: 35px;
+    margin: 30px 20px 30px 20px;
     box-sizing: border-box; 
     display: inline-block;
+    overflow: hidden;
 }
 
 .container .box .imgBox

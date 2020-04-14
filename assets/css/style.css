@@ -160,31 +160,27 @@ section
     margin: 0;
 }
 
-.intro
+body 
+{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Text styling responsive */
+
+.wrapper
 {
     width: 100%;
 }
 
 .intro-text
 {
-    width: 30%;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: 0.5s all ease-in-out;
-}
-
-.intro-appear
-{
-    opacity: 1;
-    transform: translateY(0px);
-}
-
-.intro-context
-{
     width: 100%;
 }
 
-.intro-title h2
+.intro-text h2
 {
     padding: 30px 30px 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -193,73 +189,57 @@ section
     line-height: 44px;
 }
 
-.intro-text h2
+.intro-text p
 {
     padding: 0px 30px 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16x;
+    font-size: 16px;
     color: #111;
     line-height: 24px;
 }
 
-@media only screen and (min-width: 768px)
-{
-    .intro
+@media only screen and (min-weigh: 768px) {
+    .wrapper
     {
-        width: 600px;
-        margin: 0 auto;
-    }
-
-    .intro-context
-    {
-        width: 600px;
-        margin: 0 auto;
-    }
-
-    .intro-title h2
-    {
-        padding: 20px 0px 0px;
+    width: 600px;
+    margin: 0 auto;
     }
 
     .intro-text h2
     {
-        padding: 20px 0px 0px;
+    padding: 20px 0px 0px;
+    }
+
+    .intro-text p
+    {
+    padding: 20px 0px 0px;
     }
 }
 
-@media only screen and (min-width: 1000px)
-{
-    .intro
+@media only screen and (min-weigh: 1000px) {
+    .wrapper
     {
-        width: 1000px;
+    width: 1000px;
     }
 
-    .intro-context
+    .intro-text
     {
-        width: 1000px;
-    }
-    
-    .intro-title h2
-    {
-        padding: 20px 0px 0px 30px;
+    width: 50%;
+    float: right;
     }
 
     .intro-text h2
     {
-        padding: 20px 0px 0px 30px;
+    padding: 20px 0px 0px 30px;
     }
 
+    .intro-text p
+    {
+    padding: 20px 0px 0px 30px;
+    }
 }
 
 /* container */
-
-body 
-{
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-}
 
 .container
 {
@@ -315,7 +295,7 @@ body
     font-family: 'lato', sans-serif;
 }
 
-/* Gallery Second html */
+/* Gallery html */
 
 .gallery{
     margin: 20px 20px;
@@ -332,7 +312,7 @@ body
     transform: scale(1.1);
 }
 
-/* Map fourth html */
+/* Map html */
 
 #map
 {
@@ -354,7 +334,6 @@ h1
     letter-spacing: 1px;
     color: #777777;
 }
-
 
 span 
 {

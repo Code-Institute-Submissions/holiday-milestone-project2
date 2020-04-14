@@ -354,3 +354,23 @@ span
     margin-bottom: 0;
     text-align: center;
 }
+
+/* boxes */
+
+.box1
+{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.box2
+{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}

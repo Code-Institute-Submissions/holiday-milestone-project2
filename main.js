@@ -32,6 +32,59 @@ tl.fromTo(
     "-=1.2"
 )
 
+// Bottom to top scroll //
+
+function smoothScroll(target,duration){
+    var target = document.querySelector(target);
+    var targetPosition = target.getBoundingClientRect().top;
+    var startPosition = window.pageYOffset;
+    var distance = targetPosition - startPosition;
+    var startTime = null;
+
+    function animation(currentTime){
+        if(startTime === null) startTime = currentTime;
+        var timeElapsed = currentTime - startTime;
+        var run = ease(timeElapsed, startPosition, distance, duration);
+        window.scrollTo(0,run);
+        if(timeElapsed < duration) requestAnimationFrame(animation);
+    }
+
+    function ease(t, b, c, d) {
+        t /=d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) -1) + b;
+    }
+
+
+    requestAnimationFrame(animation);
+}
+
+var section1 = document.querySelector('.section1');
+var section2 = document.querySelector('.section2');
+
+section1.addEventListener('click', function(){
+    smoothScroll('.section2', 1000);
+});
+
+section2.addEventListener('click', function(){
+    smoothScroll('.section1', 1000);
+});
+
+// Text appear animation //
+
+function scrollAppear(){
+    var introText = document.querySelector('.intro-text');
+    var introPosition = introText.getBoundingClientRect().top;
+    var screenPosition = window.innerHeight / 1.3;
+
+    if(introPosition < screenPosition){
+        introText.classList.add('intro-appear');
+    }
+}
+
+window.addEventListener('scroll',scrollAppear);
+
 // Map //
 
 function initMap(){
@@ -145,42 +198,3 @@ function initMap(){
         }
     }
 }
-
-// Bottom to top scroll //
-
-function smoothScroll(target,duration){
-    var target = document.querySelector(target);
-    var targetPosition = target.getBoundingClientRect().top;
-    var startPosition = window.pageYOffset;
-    var distance = targetPosition - startPosition;
-    var startTime = null;
-
-    function animation(currentTime){
-        if(startTime === null) startTime = currentTime;
-        var timeElapsed = currentTime - startTime;
-        var run = ease(timeElapsed, startPosition, distance, duration);
-        window.scrollTo(0,run);
-        if(timeElapsed < duration) requestAnimationFrame(animation);
-    }
-
-    function ease(t, b, c, d) {
-        t /=d / 2;
-        if (t < 1) return c / 2 * t * t + b;
-        t--;
-        return -c / 2 * (t * (t - 2) -1) + b;
-    }
-
-
-    requestAnimationFrame(animation);
-}
-
-var section1 = document.querySelector('.section1');
-var section2 = document.querySelector('.section2');
-
-section1.addEventListener('click', function(){
-    smoothScroll('.section2', 1000);
-});
-
-section2.addEventListener('click', function(){
-    smoothScroll('.section1', 1000);
-});

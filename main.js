@@ -1,6 +1,6 @@
 // Text appear animation //
 
-//const faders = document.querySelectorAll('.fade-in');
+const faders = document.querySelectorAll('.fade-in');
 
 // Index animation //
 
@@ -229,3 +229,10 @@ function initMap(){
         }
     }
 }
+
+// Button
+
+document.querySelector('#redirect')
+    .addEventListener('click', () => {
+        window.open('https://www.lonelyplanet.com/adventure-tours');
+    });

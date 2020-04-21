@@ -1,6 +1,6 @@
 // Text appear animation //
 
-const faders = document.querySelectorAll('.fade-in');
+// const faders = document.querySelectorAll('.fade-in');
 
 // Index animation //
 
@@ -74,47 +74,6 @@ section1.addEventListener('click', function(){
 section2.addEventListener('click', function(){
     smoothScroll('.section1', 1000);
 });
-
-// Text appear animation //
-
-//function scrollAppear(){
-    //var introText = document.querySelector('.intro-text');
-    //var introPosition = introText.getBoundingClientRect().top;
-    //var screenPosition = window.innerHeight / 1.3;
-
-    //if(introPosition < screenPosition){
-        //introText.classList.add('intro-appear');
-    //}
-//}
-
-//window.addEventListener('scroll',scrollAppear);
-
-// Text appear animation //
-
-//const appearOptions = {
-    //threshold: 1,
-    //rootMargin: "0px 0px -100px 0px"
-//};
-
-//const appearOnScroll = new IntersectionObserver
-//(function(
-    //entries, 
-    //appearOnScroll
-    //) {
-        //entries.forEach(entry => {
-            //if (!entry.isIntersecting) {
-                //return;
-            //} else {
-                //entry.target.classList.add('appear');
-                //appearOnScroll.unobserve(entry.target);
-            //}
-        //})
-    //}, 
-    //appearOptions);
-
-    //faders.forEach(fader => {
-        //appearOnScroll.observe(fader);
-    //});
 
 // Map //
 

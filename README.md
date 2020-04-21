@@ -2,7 +2,7 @@
 
 This is a website for people who need tips on where to go on holiday. Helping the user find the best holiday destination to match their needs.
 
-## UX
+## UI
 
 This website is for individuals who are looking to travel, they want to find a destination that matches their needs. My project will help them select where they want to go to.
 
@@ -32,11 +32,11 @@ Wireframe on pdf for you to view.
 
 ### Existing Features
 
-- Feature 1 - The Holiday Selector button allows users to click on and get brought back to the home page from any of the other pages.
+- Holiday Selector - The Holiday Selector button allows users to click on and get brought back to the home page from any of the other pages.
 
-- Feature 2 - The nav bar allows the user to click on any of the navigation links, each one brings them to another page.
+- Nav Bar - The nav bar allows the user to click on any of the navigation links, each one brings them to another page.
 
-- Feature 3 - The top to bottom buttons allows the user to click on to reach the top or bottom of each page.
+- To bottom/to top - The top to bottom buttons allows the user to click on to reach the top or bottom of each page.
 
 - Feature 4 - The images allow the user to double click on each image bringing them to another page with more information on that location.
 

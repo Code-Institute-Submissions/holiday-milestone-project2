@@ -97,12 +97,12 @@ Wireframe on pdf for you to view.
     - The project uses fontawesome for the social media icon links.
 
 - Gooogle api
-    - The project uses google api's for the map on webpage.
+    - The project uses google api's for the map on the website.
 
 - jsdelivr
     - The project uses jsdelivr for page annimations.
 
-- pexels
+- pexels.com
     - The project uses pexels.com for the images.
 
 ## Testing

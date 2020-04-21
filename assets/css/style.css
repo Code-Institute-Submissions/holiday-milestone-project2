@@ -407,6 +407,15 @@ span
     margin: 0 20vw;
 }
 
+/* Video */
+
+.video
+{
+    padding: 30px 30px 30px 30px;
+}
+
+/* Copyright */
+
 .copyright
 {
     font-size: 14px;

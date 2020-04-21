@@ -55,16 +55,16 @@ Wireframe on pdf for you to view.
 ## Technologies Used
 
 - Bootstrap 4
-    - The project uses Bootstrap to simplify creating a nav bar on the webpage.
+    - The project uses Bootstrap to simplify creating website for e.g. a nav bar on the webpage.
 
 - cdnjs
-    - The project uses cdnjs to create image and text annimations on the webpage.
+    - The project uses cdnjs to create a nice clear set out webpages.
 
 - Googlefonts
     - The project uses Googlefonts to create different fonts on the webpage.
 
 - JQuery
-    - The project uses JQuery to create a gallery on the webpage.
+    - The project uses JQuery to simplify website creation.
 
 - HTML5
     - The project uses HTML5 mark up language code used for basic description and layout of website.
@@ -137,40 +137,64 @@ Wireframe on pdf for you to view.
 
 ## Deployment
 
+- Deployed the project using hosting platform GitHub pages.
+- Running the code using GitPod.
+- Used the GitPod to run and debug my code within the workspace.
+- Used console in GitPod to write code and use terminal and Git commands to send code to GitHub repository to save code.
+- Used Git to save code and view changes made.
+- Used GitHub repository to save code.
 
+Adding to the repository
+- git add --all
+- git commit -m "initial commit"
+- git push
 
-2.jpg Photo by Valdemaras D. from Pexels
-santorini.jpg Photo by jimmy teoh from Pexels
-venice.jpg Photo by Nikolaj Erema from Pexels
-newyork.jpg Photo by Vlad Alexandru Popa from Pexels
-paris.jpg Photo by Rosivan Morais from Pexels
-amsterdam.jpg Photo by _ Harvey from Pexels
-thailand.jpg Photo by VisionPic .net from Pexels
-iceland.jpg Photo by Simon Migaj from Pexels
-maldives.jpg Photo by Snapwire from Pexels 
-philippines.jpg Photo by NICE GUYS from Pexels
-bali.jpg Photo by VisionPic .net from Pexels
-lisbon.jpg Photo by Lisa Fotios from Pexels
-barcelona.jpg Photo by Chait Goli from Pexels
-africa.jpg Photo by Oleg Magni from Pexels
-asia.jpg Photo by Pixabay from Pexels
-europe.jpg Photo by H. Emre from Pexels
-oceania.jpg Photo by Sabel Blanco from Pexels
-caribbean.jpg Photo by Jose Espinal from Pexels
-northamerica.jpg Photo by Pixabay from Pexels
-centralamerica.jpg Photo by Roberto Nickson from Pexels
-southamerica.jpg Photo by Matheus Bertelli from Pexels
-madrid.jpg Photo by Alexis Azabache from Pexels
-berlin.jpg Photo by Shvets Anna from Pexels
-sanfrancisco.jpg Photo by Pixabay from Pexels
-cuba.jpg Photo by Dimitri Dim from Pexels
-losangels.jpg Photo by Wolfram K from Pexels
-bondibeach.jpg Photo by Belle Co from Pexels
-angkorwat.jpg Photo by Lukas Kloeppel from Pexels
-machupicchu.jpg Photo by Paula Nardini from Pexels
-empirestate.jpg Photo by Roberto Vivancos from Pexels
-eiffeltower.jpg Photo by Eugene Dorosh from Pexels
-rome.jpg Photo by Anastasia Zhenina from Pexels
-louvre.jpg Photo by Pixabay from Pexels
-zante.jpg Photo by Pixabay from Pexels
-mexico.jpg Photo by Pixabay from Pexels
+# Credits
+
+## Content
+
+- Skyscanner.com for the flight page.
+- Tripadviser.com for the instagram, facebook, twitter pages and all the images on the tour page.
+- Lonelyplanet.com for all the images on the home page and the click here button on the tour page.
+
+## Media
+
+- 2.jpg Photo by Valdemaras D. from Pexels
+- santorini.jpg Photo by jimmy teoh from Pexels
+- venice.jpg Photo by Nikolaj Erema from Pexels
+- newyork.jpg Photo by Vlad Alexandru Popa from Pexels
+- paris.jpg Photo by Rosivan Morais from Pexels
+- amsterdam.jpg Photo by _ Harvey from Pexels
+- thailand.jpg Photo by VisionPic .net from Pexels
+- iceland.jpg Photo by Simon Migaj from Pexels
+- maldives.jpg Photo by Snapwire from Pexels 
+- philippines.jpg Photo by NICE GUYS from Pexels
+- bali.jpg Photo by VisionPic .net from Pexels
+- lisbon.jpg Photo by Lisa Fotios from Pexels
+- barcelona.jpg Photo by Chait Goli from Pexels
+- africa.jpg Photo by Oleg Magni from Pexels
+- asia.jpg Photo by Pixabay from Pexels
+- europe.jpg Photo by H. Emre from Pexels
+- oceania.jpg Photo by Sabel Blanco from Pexels
+- caribbean.jpg Photo by Jose Espinal from Pexels
+- northamerica.jpg Photo by Pixabay from Pexels
+- centralamerica.jpg Photo by Roberto Nickson from Pexels
+- southamerica.jpg Photo by Matheus Bertelli from Pexels
+- madrid.jpg Photo by Alexis Azabache from Pexels
+- berlin.jpg Photo by Shvets Anna from Pexels
+- sanfrancisco.jpg Photo by Pixabay from Pexels
+- cuba.jpg Photo by Dimitri Dim from Pexels
+- losangels.jpg Photo by Wolfram K from Pexels
+- bondibeach.jpg Photo by Belle Co from Pexels
+- angkorwat.jpg Photo by Lukas Kloeppel from Pexels
+- machupicchu.jpg Photo by Paula Nardini from Pexels
+- empirestate.jpg Photo by Roberto Vivancos from Pexels
+- eiffeltower.jpg Photo by Eugene Dorosh from Pexels
+- rome.jpg Photo by Anastasia Zhenina from Pexels
+- louvre.jpg Photo by Pixabay from Pexels
+- zante.jpg Photo by Pixabay from Pexels
+- mexico.jpg Photo by Pixabay from Pexels
+
+## Acknowledgements
+
+- I received inspiration for this project from http://travelpicker.com/

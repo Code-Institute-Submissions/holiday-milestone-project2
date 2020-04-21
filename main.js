@@ -34,7 +34,7 @@ tl.fromTo(
     { x: "-100%" }, 
     { x: '0%' ,ease: Power2.easeInOut }, 
     "-=1.2"
-)
+);
 
 // Bottom to top scroll //
 

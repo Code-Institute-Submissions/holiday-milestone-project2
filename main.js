@@ -1,16 +1,12 @@
-// Text appear animation //
-
-// const faders = document.querySelectorAll('.fade-in');
-
 // Index animation //
 
 const hero = document.querySelector('.hero');
+
 const slider = document.querySelector('.slider');
-const headline = document.querySelector('.headline');
 
-const tl = new TimelineMax();
+const image = new TimelineMax();
 
-tl.fromTo(
+image.fromTo(
     hero,
     1, 
     { height: "0%" },
@@ -20,20 +16,11 @@ tl.fromTo(
     1.2, 
     { width: '100%' }, 
     { width: '80%', ease: Power2.easeInOut }
-)
-.fromTo(
+).fromTo(
     slider, 
     1.2, 
     { x: "-100%" }, 
     { x: '0%' ,ease: Power2.easeInOut }, 
-    "-=1.2"
-)
-.fromTo(
-    headline, 
-    1.2, 
-    { x: "-100%" }, 
-    { x: '0%' ,ease: Power2.easeInOut }, 
-    "-=1.2"
 );
 
 // Bottom to top scroll //
@@ -53,11 +40,11 @@ function smoothScroll(target,duration){
         if(timeElapsed < duration) requestAnimationFrame(animation);
     }
 
-    function ease(t, b, c, d) {
-        t /=d / 2;
-        if (t < 1) return c / 2 * t * t + b;
-        t--;
-        return -c / 2 * (t * (t - 2) -1) + b;
+    function ease(top, bottom, comeUp, drop) {
+        top /=drop / 2;
+        if (top < 1) return comeUp / 2 * top * top + bottom;
+        top--;
+        return -comeUp / 2 * (top * (top - 2) -1) + bottom;
     }
 
 

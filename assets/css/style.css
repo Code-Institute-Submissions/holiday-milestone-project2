@@ -268,9 +268,9 @@ section
 
 .content h6
 {
-    text-align: center;
+    text-align: justify;
     color: #ffffff;
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     font-family: 'Lato', sans-serif;
 }
 
@@ -290,7 +290,18 @@ section
     transform: scale(1.1);
 }
 
-/* Map html */
+/* Maps */
+
+.iframe
+{
+    display: block;
+    width: 90vh;
+    height: calc(.75 * 90vw);
+    max-width: 800px;
+    max-height: 600px;
+    margin: 10em auto;
+    border-radius: 4px; 
+}
 
 #map
 {
@@ -312,6 +323,19 @@ section
     font-size: 14px;
     margin-bottom: 0;
     text-align: center;
+}
+
+/* video */
+
+.video
+{
+    display: block;
+    width: 90vh;
+    height: calc(.75 * 90vw);
+    max-width: 800px;
+    max-height: 600px;
+    margin: 10em auto;
+    border-radius: 4px; 
 }
 
 @media only screen and (max-width: 767px)

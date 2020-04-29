@@ -7,7 +7,7 @@ $(document).ready(function() {
         part: 'snippet',
         key: key,
         maxResults: 2,
-        playlistId: playlistId;
+        playlistId: playlistId
     }
 
     loadVids();

@@ -159,7 +159,10 @@ Adding to the repository
 
 ## Media
 
+### Photos
+
 - 2.jpg Photo by Valdemaras D. from Pexels
+- 1.jpg Photo by Streetwindy from Pexels
 - santorini.jpg Photo by jimmy teoh from Pexels
 - venice.jpg Photo by Nikolaj Erema from Pexels
 - newyork.jpg Photo by Vlad Alexandru Popa from Pexels
@@ -193,7 +196,11 @@ Adding to the repository
 - rome.jpg Photo by Anastasia Zhenina from Pexels
 - louvre.jpg Photo by Pixabay from Pexels
 - zante.jpg Photo by Pixabay from Pexels
-- mexico.jpg Photo by Pixabay from Pexels
+- mexico.jpg Photo by Pixabay from 
+
+### Video
+
+- video by lonely planet
 
 ## Acknowledgements
 

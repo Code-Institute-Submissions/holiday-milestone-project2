@@ -235,13 +235,29 @@
             </p>
         </article>
     </div>
+    <br>
 
     <!-- Map -->
 
-    <div class="row">
-        <div class="col">
-            <div id="map"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4">My Map</h1>
+            </div>
         </div>
+
+        <div class="row mb-2">
+            <div class="col">
+                <input class="form-control" id="search" type="text" placeholder="search..." />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div id="map"></div>
+            </div>
+        </div>
+
     </div>
 
     <!-- Div -->
@@ -269,7 +285,7 @@
 
     <!-- Google Maps Scripts -->
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV-sOfoLshFW6Eu4-UsJ6w2oBkROMy9gQ&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV-sOfoLshFW6Eu4-UsJ6w2oBkROMy9gQ&callback=initMap&Libraries-places" async defer></script>
 
 </body>
 

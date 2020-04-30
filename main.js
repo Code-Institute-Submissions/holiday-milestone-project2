@@ -62,7 +62,7 @@ section2.addEventListener('click', function(){
     smoothScroll('.section1', 1000);
 });
 
-// Map 
+// Map //
 
 function initMap(){
     // Map options

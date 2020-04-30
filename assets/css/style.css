@@ -329,13 +329,7 @@ section
 
 .video
 {
-    display: block;
-    width: 90vh;
-    height: calc(.75 * 90vw);
-    max-width: 800px;
-    max-height: 600px;
-    margin: 10em auto;
-    border-radius: 4px; 
+    
 }
 
 @media only screen and (max-width: 767px)

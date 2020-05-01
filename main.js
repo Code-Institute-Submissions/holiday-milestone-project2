@@ -86,7 +86,7 @@ section2.addEventListener('click', function ()
 
 function initMap()
 {
-	// Map options
+	//Map options
 	var options = {
 		center:
 		{
@@ -104,14 +104,14 @@ function initMap()
 	google.maps.event.addListener(map, 'click',
 		function (event)
 		{
-			// Add marker
+			//Add marker
 			addMarker(
 			{
 				coords: event.latLng
 			});
 		});
 
-	// Array of markers
+	//Array of markers
 	var markers = [
 	{
 		coords:

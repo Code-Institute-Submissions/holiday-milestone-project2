@@ -2,6 +2,27 @@
 
 This is a website for people who need tips on where to go on holiday. Helping the user find the best holiday destination to match their needs.
 
+## UX
+
+The home page the holiday selector page is white and simple for the the user to use. There is some simple photo annimation at the beginging with a navigation bar leading you to the tour page, flights and social media pages on other external pages. The holiday selector once clicked brings you back to the home page. 
+
+Their is a to bottom button which leads you to the bottom off the page. The once your their there is a to top to bring you back to the top of the page.
+
+Some simple easily readable text. Black text on white background.
+
+Then clickable photos of different locations.
+
+Map of Rome with clickable hotels, accomadation, resturants and places to travel to marked on the map. Once you click a location more information is shown to you, the name of the location, location photo, the address, the telephone number, email address and how many stars the location has.
+
+Map of the world with clickable locations name of the location and flags where ether are beaches. Also you can look at the location by clicking and dragging the yellow man over where you want to see.
+
+The tour page has clickable locations with information on tours there once clicked.
+
+Scroll down the page to two simple videos on where is best to travel in 2020.
+
+At the bottom of the page after the text is a click here button. This leads you to another external page with more infromation on tours.
+
+
 ## UI
 
 This website is for individuals who are looking to travel, they want to find a destination that matches their needs. My project will help them select where they want to go to.
@@ -133,7 +154,7 @@ Wireframe on pdf for you to view.
 - Copy and passted where possible.
 - Tested responsiveness of site and links.
 
-*Existing bugs* are main.js can't read line 236. Also 404's on 2.jpg, prev.png, next.png, loading.gif and close.png.
+*Existing bugs* 
 
 ## Deployment
 

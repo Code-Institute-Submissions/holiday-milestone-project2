@@ -179,6 +179,6 @@ function initMap(){
 // Button
 
 document.querySelector('#redirect')
-    .addEventListener('click', () => {
+    .addEventListener('click', (button) => {
         window.open('https://www.lonelyplanet.com/adventure-tours');
     });

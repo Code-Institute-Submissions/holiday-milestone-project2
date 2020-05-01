@@ -146,15 +146,14 @@ Wireframe on pdf for you to view.
     - Scroll to bottom of page and click the click here button, this open up a new page.
 
 *Bugs*
-- Cleaned up errors in GitHub.
-- Added comments to HTML and CSS code.
-- Clicked on view the toogle word wrap.
+- When I found bugs I double clicked the site and went to dev tools check the console log and found a resolution.
 - Got rid of 404 errors.
-- Changed the folders and there names.
-- Copy and passted where possible.
 - Tested responsiveness of site and links.
 
 *Existing bugs* 
+- Error cannot read addEventListener on main.js line 182.
+- Also 2.jpg status 404.
+- jQuery uncaught error.
 
 ## Deployment
 
@@ -196,14 +195,6 @@ Adding to the repository
 - bali.jpg Photo by VisionPic .net from Pexels
 - lisbon.jpg Photo by Lisa Fotios from Pexels
 - barcelona.jpg Photo by Chait Goli from Pexels
-- africa.jpg Photo by Oleg Magni from Pexels
-- asia.jpg Photo by Pixabay from Pexels
-- europe.jpg Photo by H. Emre from Pexels
-- oceania.jpg Photo by Sabel Blanco from Pexels
-- caribbean.jpg Photo by Jose Espinal from Pexels
-- northamerica.jpg Photo by Pixabay from Pexels
-- centralamerica.jpg Photo by Roberto Nickson from Pexels
-- southamerica.jpg Photo by Matheus Bertelli from Pexels
 - madrid.jpg Photo by Alexis Azabache from Pexels
 - berlin.jpg Photo by Shvets Anna from Pexels
 - sanfrancisco.jpg Photo by Pixabay from Pexels

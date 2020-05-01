@@ -1,4 +1,4 @@
-/* Index page view styling */
+/* Index - all the styling for all pages is here */
 
 *
 {
@@ -14,7 +14,7 @@ body
     font-family: 'Lato', sans-serif;
 }
 
-/* Nav Bar */
+/* Nav Bar - All Nav Bar items here are for the nagivation bar */
 
 .navbar-nav a
 {
@@ -102,7 +102,7 @@ body
     background: rgba(0,0,0,0.5);
 }
 
-/* Index heading styling */
+/* Index annimation - all styling here is for the photo annimation on the index home page and the tour page */
 
 .slider
 {
@@ -166,7 +166,7 @@ section
     min-height: 1vh;
 }
 
-/* boxes scroll down & up */
+/* boxes - all the navigation for the scroll down & up botton is here */
 
 .box1
 {
@@ -186,7 +186,7 @@ section
     opacity: 0.5;
 }
 
-/* Text styling responsive */
+/* Text - this is the styling on the responsive text on the pages */
 
 .wrapper
 {
@@ -216,7 +216,7 @@ section
     line-height: 24px;
 }
 
-/* container */
+/* container - this is the styling on the images on the pages */
 
 .container
 {
@@ -274,23 +274,7 @@ section
     font-family: 'Lato', sans-serif;
 }
 
-/* Gallery html */
-
-.gallery{
-    margin: 20px 20px;
-}
-
-.gallery img{
-    transition: 1s;
-    padding: 15px;
-    width: 200px;
-}
-
-.gallery img:hover{
-    transform: scale(1.1);
-}
-
-/* Maps */
+/* Maps - this is the styling on the maps on the index page */
 
 .iframe
 {
@@ -316,7 +300,7 @@ section
     border-radius: 4px;
 }
 
-/* Copyright */
+/* Copyright - this is the styling on the copyright at the end of the pages */
 
 .copyright
 {
@@ -325,12 +309,7 @@ section
     text-align: center;
 }
 
-/* video */
-
-.video
-{
-    
-}
+/* Responsive - the is the responsive styling on the pages */
 
 @media only screen and (max-width: 767px)
 {

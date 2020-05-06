@@ -1,63 +1,57 @@
-// Index animation - this is the annimation on the images at the top of the pages //
+// Index landing page animation - this is the annimation on the images at the top of the pages //
 
-const hero = document.querySelector('.hero');
+const hero = document.querySelector('.hero'); // Selects the hero image on the screen //
 
-const slider = document.querySelector('.slider');
+const slider = document.querySelector('.slider'); // Selects the background image //
 
-const image = new TimelineMax();
+const image = new TimelineMax(); // TimeLineMax chains together mutliple annimations //
 
-image.fromTo(
-	hero,
-	1,
+image.fromTo(hero,1, // Hero is the image, 1 is the duration 
 	{
-		height: "0%"
+		height: "0%" // Height starts from 0% 
 	},
 	{
-		height: "80%",
-		ease: Power2.easeInOut
+		height: "80%",// Height ends ay 80%
+		ease: Power2.easeInOut // Eases the image in and out
 	}
-).fromTo(
-	hero,
-	1.2,
+).fromTo(hero,1.2, 
 	{
-		width: '100%'
+		width: '100%' // Changes the size of the width from 100% to 80%
 	},
 	{
 		width: '80%',
-		ease: Power2.easeInOut
+		ease: Power2.easeInOut // Eases the image in and out
 	}
-).fromTo(
-	slider,
-	1.2,
+).fromTo(slider,1.2,
 	{
-		x: "-100%"
+		x: "-100%" 
 	},
 	{
 		x: '0%',
-		ease: Power2.easeInOut
+		ease: Power2.easeInOut 
 	},
 );
 
-// Bottom to top scroll //
+// To top scroll //
 
-function smoothScroll(target, duration)
+function smoothScroll(target, duration) // Target to which we want to annimate to and duration how long that annimation will last //
 {
-	var target = document.querySelector(target);
-	var targetPosition = target.getBoundingClientRect().top;
-	var startPosition = window.pageYOffset;
-	var distance = targetPosition - startPosition;
-	var startTime = null;
+	var target = document.querySelector(target); // Variable selects the target with target selector passing (target)
+	var targetPosition = target.getBoundingClientRect().top; // Target position function gives us a position to the top of the screen
+	var startPosition = window.pageYOffset; // Starting position how many pixels you are relative to the window
+	var distance = targetPosition - startPosition; // The distance between them
+	var startTime = null; // Enables you to perform annimations to the browser
 
-	function animation(currentTime)
+	function animation(currentTime) // Animation scroll
 	{
-		if (startTime === null) startTime = currentTime;
+		if (startTime === null) startTime = currentTime; 
 		var timeElapsed = currentTime - startTime;
 		var run = ease(timeElapsed, startPosition, distance, duration);
 		window.scrollTo(0, run);
 		if (timeElapsed < duration) requestAnimationFrame(animation);
 	}
 
-	function ease(top, bottom, comeUp, drop)
+	function ease(top, bottom, comeUp, drop) // Function ease from bottom to top 
 	{
 		top /= drop / 2;
 		if (top < 1) return comeUp / 2 * top * top + bottom;
@@ -70,7 +64,7 @@ function smoothScroll(target, duration)
 }
 
 var section1 = document.querySelector('.section1');
-var section2 = document.querySelector('.section2');
+var section2 = document.querySelector('.section2');// Scrolls you to the top
 
 section1.addEventListener('click', function ()
 {
@@ -268,5 +262,5 @@ function initMap()
 document.querySelector('#redirect')
 	.addEventListener('click', () =>
 	{
-		window.open('https://www.lonelyplanet.com/adventure-tours');
+		window.open('https://www.lonelyplanet.com/adventure-tours'); // Takes you to a new page
 	});

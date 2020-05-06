@@ -6,7 +6,7 @@ This is a website for people who need tips on where to go on holiday. Helping th
 
 The home page the holiday selector page is white and simple for the the user to use. There is some simple photo annimation at the beginging with a navigation bar leading you to the tour page, flights and social media pages on other external pages. The holiday selector once clicked brings you back to the home page. 
 
-Their is a to bottom button which leads you to the bottom off the page. The once your their there is a to top to bring you back to the top of the page.
+Their is a to top button which leads you to the top off the page. 
 
 Some simple easily readable text. Black text on white background.
 
@@ -129,20 +129,21 @@ Wireframe on pdf for you to view.
 ## Testing
 
 1. Open webite on chrome, safari and firefox to manually test all links.
-2. Go to nav bar and select Tours, this takes you to the next page.
+2. In dev tools the site has been tested on all mobile devices, tablets through to laptops and computers.
+3. Go to nav bar and select Tours, this takes you to the next page.
     - Once on the Tour page select Holiday Selector to take you back to the home page.
     - Go to nav bar and select Flight, this takes you to a new page.
     - Go to nav bar and select Instagram symbol, this opens up a new page.
     - Go to nav bar and select Facebook symbol, this opens up a new page.
     - Go to nav bar and select Twitter symbol, this opens up a new page.
-3. Click on to bottom, this brings you to the bottom of the page.
+4. Click on to bottom, this brings you to the bottom of the page.
     - Click on to top, this brings you to the top of the page.
-4. Double click on any of the images, all open up a new page.
+5. Double click on any of the images, all open up a new page.
     - Hover mouse over gallery to make the images get slightly larger.
     - Click on the gallery the make the photo larger, click right handside of image to flick through gallery, click left hand side to click back through gallery, then click outside gallery to return to the page with smaller pictures.
-5. Click on the map to add marker, click on existing markers to get location.  Click on flags to get location, click and drag and drop yellow man on location to see it. 
-6. Click on + and - symbols to zoom in and out of the map.
-7. On Tours page the same as above.
+6. Click on the map to add marker, click on existing markers to get location.  Click on flags to get location, click and drag and drop yellow man on location to see it. 
+7. Click on + and - symbols to zoom in and out of the map.
+8. On Tours page the same as above.
     - Scroll to bottom of page and click the click here button, this open up a new page.
 
 *Bugs*
@@ -157,6 +158,7 @@ Wireframe on pdf for you to view.
 
 ## Deployment
 
+- The code is hosted by master branch in GitHub
 - Deployed the project using hosting platform GitHub pages.
 - Running the code using GitPod.
 - Used the GitPod to run and debug my code within the workspace.
@@ -170,12 +172,6 @@ Adding to the repository
 - git push
 
 # Credits
-
-## Content
-
-- Skyscanner.com for the flight page.
-- Tripadviser.com for the instagram, facebook, twitter pages and all the images on the tour page.
-- Lonelyplanet.com for all the images on the home page and the click here button on the tour page.
 
 ## Media
 
@@ -213,3 +209,9 @@ Adding to the repository
 ## Acknowledgements
 
 - I received inspiration for this project from http://travelpicker.com/
+
+## Content
+
+- Skyscanner.com for the flight page.
+- Tripadviser.com for the instagram, facebook, twitter pages and all the images on the tour page.
+- Lonelyplanet.com for all the images on the home page and the click here button on the tour page.
